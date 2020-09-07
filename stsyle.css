@@ -5,9 +5,9 @@
 }
 
 .header {
-  width: 100%;
   padding: 30px 20px;
   background-color: #ff00ff;
+  display: flex;
   justify-content: flex-end;
 }
 
@@ -19,7 +19,7 @@
 }
 
 .header > first-child {
-  margin-right: 0 auto;
+  margin-right: auto;
 }
 
 .main {
@@ -50,9 +50,8 @@
 }
 
 .footer {
-  width: 100%;
   padding: 20px;
-  background-color: #00b522;
+  background-color: #52a1ff;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
